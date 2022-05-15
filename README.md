@@ -52,7 +52,7 @@
 # VS Code editor setup
 ## Configurations for eslint and prettier
 ### Go to your VS Code `settings.json` file and add the settings :
-``` javascript
+``` json
 // config related to code formatting
 "editor.defaultFormatter": "esbenp.prettier-vscode",
 "editor.formatOnSave": true,
@@ -77,7 +77,7 @@ yarn add -D eslint-config-prettier eslint-plugin-prettier
 ```
 # Setup Linting Configuration file
 ## Create a `.eslintrc.json` file in the root folder and enter the contents below:
-``` javascript
+``` json
 {
   "extends": ["prettier", "airbnb-base"],
   "parserOptions": {
